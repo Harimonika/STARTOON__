@@ -1,0 +1,93 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Profile Container */
+.profile-container {
+    background-color: #fff;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Details */
+.profile-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.profile-info p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Medical Details */
+.medical-details {
+    margin-bottom: 20px;
+}
+
+.medical-details h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Goal Achievement */
+.goal-achievement {
+    text-align: center;
+}
+
+.goal-achievement h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.semi-circle {
+    width: 150px;
+    height: 50px;
+    background-color: #ddd;
+    border-radius: 150px 150px 0 0;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto 10px auto;
+}
+
+.progress {
+    width: 150px;
+    height: 150px;
+    background-color: #4CAF50; /* Replace with your desired color */
+    border-radius: 50%;
+    clip-path: polygon(50% 50%, 0% 50%, 50% 0%);
+    transform: rotate(135deg); /* Adjust this value to match the percentage */
+}
+
+.goal-text {
+    font-size: 18px;
+    color: #333;
+}
